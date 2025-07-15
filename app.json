@@ -1,0 +1,14 @@
+{
+  "name": "eBookFilterBot",
+  "description": "A Telegram bot to filter and share eBooks",
+  "repository": "https://github.com/mr-adnan-adu/ebooks-downloader",
+  "env": {
+    "API_ID": {"description": "Telegram API ID", "required": true},
+    "API_HASH": {"description": "Telegram API Hash", "required": true},
+    "API_TOKEN": {"description": "Telegram Bot Token", "required": true},
+    "FILES_DATABASE_URL": {"description": "MongoDB URL", "required": true},
+    "INDEX_CHANNELS": {"description": "Comma-separated channel IDs", "required": true},
+    "ADMINS": {"description": "Comma-separated admin IDs", "required": true}
+  },
+  "buildpacks": [{"url": "heroku/python"}]
+}

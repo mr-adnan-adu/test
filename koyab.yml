@@ -1,0 +1,16 @@
+services:
+  - name: ebookfilterbot
+    dockerfile: Dockerfile
+    env:
+      - key: API_ID
+        value: ""
+      - key: API_HASH
+        value: ""
+      - key: API_TOKEN
+        value: ""
+      - key: FILES_DATABASE_URL
+        value: ""
+      - key: INDEX_CHANNELS
+        value: ""
+      - key: ADMINS
+        value: ""

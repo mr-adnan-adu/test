@@ -1,0 +1,8 @@
+pyrogram==2.0.106
+tgcrypto==1.2.5
+pymongo==4.6.1
+requests==2.31.0
+gtts==2.5.1
+googletrans==4.0.0rc1
+python-telegram==0.16.0
+telegraph==2.2.0

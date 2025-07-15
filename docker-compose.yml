@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  ebookfilterbot:
+    build: .
+    environment:
+      - API_ID
+      - API_HASH
+      - API_TOKEN
+      - FILES_DATABASE_URL
+      - INDEX_CHANNELS
+      - ADMINS
+    volumes:
+      - .:/app
